@@ -34,4 +34,43 @@ The function will :
 * Sometimes in the products pages, there are several pages of customer reviews, as a consequence the function will loop in all those pages in order to collect the whole reviews
 
 ![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Func_acquire.JPG)
-            
+
+Once I have scrapped all the data requested I create a dataframe 
+![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Scrapped_df.JPG)
+
+## Cleaning The Data & Creating the Dataset
+
+In this case, we have no that much of cleaning since the information collected is already rather clean.
+I will mainly use the information collected in order to create new columns that will be useful for my analysis :
+* Date : date of the customer review : after the scrapping this information is included in the review column so I need to extract it
+* Year
+* Has answer : column that will be 1 if the customer service has answered the customer review and 0 if not
+
+![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Func_wrangle.JPG)
+
+## Analyzing the data
+
+I create 2 results dataframe that will provide :
+* The proportion of cutomers reviews answered by the customer service according the rating given (from 1 to 5 stars)
+* The same but taking into account the year in order to see the evolution of the performance of the customer service department over time
+
+![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Func_analyze.JPG)
+
+These results have been exported to csv and I used excel in order to make the final graph
+
+![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Result%201.JPG)
+![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Result_2.JPG)
+![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Result_3.JPG)
+
+## Storytelling of the data in a presentation
+
+For this project, Ironhack tasked me in presenting my project in a real life senario to simulate the process of collecting, cleaning, and presenting my analysis. For this project I assume my client was Mademoiselle Bio looking to assess the performance of it's customer service.
+
+The presentation is as a powerpoint that can be found in this repository as "Webscrapping_presentation.ppt"
+
+## Built with
+
+* Python - The programming language used
+* Pandas - library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language
+* BeautifulSoup - Python library for pulling data out of HTML and XML files
+* Excel
