@@ -6,10 +6,18 @@ Web scraping is the process of automatically extracting data from websites and s
 * Finding sales leads/conducting market research by crawling public data sources
 * Sending product data from an e-commerce site to another online vendor
 
+## Context
+This project is part of the Ironhack data analytics bootcamp I attended.
+For this project, Ironhack tasked me in presenting my project in a real life senario to simulate the process of collecting through webscraping, cleaning, and presenting my analysis.
+For this project I assume my client was Mademoiselle Bio, an online cosmetic seller,  looking to assess the performance of it's customer service.
+
 ## Purpose
 In this project I will create a pipeline that will web scrap an organic cosmetic seller using Python, Pandas, and BeautifulSoup. 
 I will collect data regarding the reviews made by customers on the various products and the answers provided by the customer service to these reviews.
 Using this dataset, I will make a general analysis on the performance of the customer service looking at the proportion of customer reviews answered by the customer service according to the rating given by the customer to the considered product. We consider that the lowest the rating, the highest should be the proportion of answered comments because adressing unsatisfied customers should be the main objective of the customer service team.
+
+The presentation is as a powerpoint that can be found in this repository as "Webscrapping_presentation.pdf"
+
 
 ## Getting started
 The website is Mademoiselle Bio :
@@ -61,12 +69,6 @@ These results have been exported to csv and I used excel in order to make the fi
 ![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Result%201.JPG)
 ![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Result_2.JPG)
 ![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Result_3.JPG)
-
-## Storytelling of the data in a presentation
-
-For this project, Ironhack tasked me in presenting my project in a real life senario to simulate the process of collecting, cleaning, and presenting my analysis. For this project I assume my client was Mademoiselle Bio looking to assess the performance of it's customer service.
-
-The presentation is as a powerpoint that can be found in this repository as "Webscrapping_presentation.ppt"
 
 ## Built with
 
