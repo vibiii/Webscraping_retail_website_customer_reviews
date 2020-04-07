@@ -33,5 +33,5 @@ The function will :
 * Loop in the pages of each product in order to collect the requested data 
 * Sometimes in the products pages, there are several pages of customer reviews, as a consequence the function will loop in all those pages in order to collect the whole reviews
 
-![picture alt]https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Func_acquire.JPG
+![picture alt](https://github.com/vibiii/Webscraping_retail_website_customer_reviews/blob/master/Images/Func_acquire.JPG)
             
